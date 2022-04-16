@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/g-dunlop-portfolio-website/static/css/main.073c9b0a.css",
-    "main.js": "/g-dunlop-portfolio-website/static/js/main.fb846b65.js",
+    "main.css": "/g-dunlop-portfolio-website/static/css/main.eb480c81.css",
+    "main.js": "/g-dunlop-portfolio-website/static/js/main.3b12036f.js",
     "static/js/787.7e3e4712.chunk.js": "/g-dunlop-portfolio-website/static/js/787.7e3e4712.chunk.js",
-    "static/media/logo.svg": "/g-dunlop-portfolio-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/home.jpg": "/g-dunlop-portfolio-website/static/media/home.eeb316f92067af20d24c.jpg",
+    "static/media/tree_pic.jpg": "/g-dunlop-portfolio-website/static/media/tree_pic.f48999aa57719023f4da.jpg",
+    "static/media/guitar.jpg": "/g-dunlop-portfolio-website/static/media/guitar.8222161848056d78b088.jpg",
+    "static/media/coding-banner.jpg": "/g-dunlop-portfolio-website/static/media/coding-banner.2be22c072cb8c60b6d9d.jpg",
+    "static/media/memorygame.jpg": "/g-dunlop-portfolio-website/static/media/memorygame.5cdef713ff7f51b3bea8.jpg",
+    "static/media/mountain_range.jpg": "/g-dunlop-portfolio-website/static/media/mountain_range.3812be640cf0abb90023.jpg",
+    "static/media/react.svg": "/g-dunlop-portfolio-website/static/media/react.b9ee6e1d0ee75ee94813aabb411b463d.svg",
+    "static/media/github.svg": "/g-dunlop-portfolio-website/static/media/github.833b63e28cadf07403bc81451d30b858.svg",
+    "static/media/java.svg": "/g-dunlop-portfolio-website/static/media/java.22c44c41c94e0ddff73ea5806edc71f1.svg",
+    "static/media/nodejs.svg": "/g-dunlop-portfolio-website/static/media/nodejs.eddef84b0e3ce6544626a1466347372b.svg",
+    "static/media/git.svg": "/g-dunlop-portfolio-website/static/media/git.94b939c1e176bfebd79b1c87dbff0abb.svg",
+    "static/media/python.svg": "/g-dunlop-portfolio-website/static/media/python.3d1725b8db898fc1c11ad09f18d81a36.svg",
     "index.html": "/g-dunlop-portfolio-website/index.html",
-    "main.073c9b0a.css.map": "/g-dunlop-portfolio-website/static/css/main.073c9b0a.css.map",
-    "main.fb846b65.js.map": "/g-dunlop-portfolio-website/static/js/main.fb846b65.js.map",
+    "static/media/js.svg": "/g-dunlop-portfolio-website/static/media/js.849ab271da269656ee7d884b34d5ebce.svg",
+    "static/media/css3.svg": "/g-dunlop-portfolio-website/static/media/css3.48fde97df5ef68b54506ffb154905c4f.svg",
+    "static/media/html5.svg": "/g-dunlop-portfolio-website/static/media/html5.280fcec471ee0f3842bcb8ff7c9bbf23.svg",
+    "main.eb480c81.css.map": "/g-dunlop-portfolio-website/static/css/main.eb480c81.css.map",
+    "main.3b12036f.js.map": "/g-dunlop-portfolio-website/static/js/main.3b12036f.js.map",
     "787.7e3e4712.chunk.js.map": "/g-dunlop-portfolio-website/static/js/787.7e3e4712.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.fb846b65.js"
+    "static/css/main.eb480c81.css",
+    "static/js/main.3b12036f.js"
   ]
 }
