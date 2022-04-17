@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
 import Guitar from "../static/guitar.jpg";
 import css3 from "../static/css3.svg";
@@ -13,6 +13,34 @@ import react from "../static/react.svg";
 
 const Skills = () => {
 
+    const[isShown, setIsShown] = useState(false);
+    const [description, setDescription] = useState("")
+
+    const skills = {
+        css:"css skill",
+        git:"git",
+        github:"github",
+        html5:"html5",
+        java:"java",
+        js:"javascript",
+        nodejs:"node js",
+        python:"python",
+        react:"react"
+    }
+
+    const handleEnter = (evt) => {
+    //    console.log(skills["css"])
+    //     console.log(evt.target.id)
+        setIsShown(true)
+        let skill = skills[evt.target.id]
+        setDescription(skill)
+        
+    }
+
+    const handleLeave = () => {
+        setIsShown(false)
+    }
+
     const Grid = styled.section`
         // height:90vh;
         display:flex;
@@ -22,14 +50,14 @@ const Skills = () => {
 
     const PicBox = styled.section`
         width:85%;
-        height:170px;
+        height:120px;
         display:flex;
         align-items:center;
     `
 
     const Pic = styled.img`
     width:50%;
-    height:150px;
+    height:100px;
     `
 
     const GridContainer = styled.section`
@@ -51,44 +79,62 @@ const Skills = () => {
         // background-color: #A6E3E9;
     `
 
+    const SkillsComponent = styled.section`
+    height:45vh;
+    `
     // const GridItem = 
+
+    const SkillDescription = styled.h2`
+        padding-bottom:1rem;
+    `
     
 
     return (
-        <>
+        <SkillsComponent>
             <Title>Skills</Title>
             <GridContainer className="grid-container">
             <Grid className="grid">
-                <PicBox className="img-container">
-                    <Pic src={css3}/>
+                <PicBox  className="img-container">
+                    <Pic onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave} id="css" src={css3}/>
                 </PicBox>
-                <PicBox className="img-container">
-                    <Pic src={git}/>
+                <PicBox  className="img-container">
+                    <Pic onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave} id="git" src={git}/>
                 </PicBox>
-                <PicBox className="img-container">
-                    <Pic src={github}/>
+                <PicBox  className="img-container">
+                    <Pic onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave} id="github" src={github}/>
                 </PicBox>
-                <PicBox className="img-container">
-                    <Pic src={html5}/>
+                <PicBox  className="img-container">
+                    <Pic onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave} id="html5" src={html5}/>
                 </PicBox>
-                <PicBox className="img-container">
-                    <Pic src={java}/>
+                <PicBox  className="img-container">
+                    <Pic onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave} id="java" src={java}/>
                 </PicBox>
-                <PicBox className="img-container">
-                    <Pic src={js}/>
+                <PicBox  className="img-container">
+                    <Pic onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave} id="js" src={js}/>
                 </PicBox>
-                <PicBox className="img-container">
-                    <Pic src={nodejs}/>
+                <PicBox  className="img-container">
+                    <Pic onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave} id="nodejs" src={nodejs}/>
                 </PicBox>
-                <PicBox className="img-container">
-                    <Pic src={python}/>
+                <PicBox  className="img-container">
+                    <Pic onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave} id="python" src={python}/>
                 </PicBox>
-                <PicBox className="img-container">
-                    <Pic src={react}/>
+                <PicBox  className="img-container">
+                    <Pic onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave} id="react" src={react}/>
                 </PicBox>
             </Grid>
+            
             </GridContainer>
-        </>
+            {isShown ? <SkillDescription>{description}</SkillDescription> : null}
+        </SkillsComponent>
     )
 }
 

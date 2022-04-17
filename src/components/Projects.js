@@ -21,6 +21,7 @@ const Projects = () => {
     const Pic = styled.img`
         height:250px;
         width:400px;
+        border-radius:10px;
         
     `
 
