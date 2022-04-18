@@ -31,10 +31,10 @@ const Header = () => {
         <Div className="header">
             <Logo>Graeme Dunlop</Logo>
             <List>
-                <li><Anchor href="/">Home</Anchor></li>
+                <li><Anchor href="/g-dunlop-portfolio-website/">Home</Anchor></li>
                 <li><Anchor href="">About</Anchor></li>
                 <li><Anchor href="">Contact</Anchor></li>
-                <li><Anchor href="/projects">Projects</Anchor></li>
+                <li><Anchor href="/g-dunlop-portfolio-website/projects">Projects</Anchor></li>
                 
             </List>
         </Div>
