@@ -34,7 +34,7 @@ const Header = () => {
                 <li><Anchor href="/g-dunlop-portfolio-website/">Home</Anchor></li>
                 <li><Anchor href="">About</Anchor></li>
                 <li><Anchor href="">Contact</Anchor></li>
-                <li><Anchor href="/g-dunlop-portfolio-website/projects">Projects</Anchor></li>
+                <li><Anchor href="/g-dunlop-portfolio-website/projects/">Projects</Anchor></li>
                 
             </List>
         </Div>

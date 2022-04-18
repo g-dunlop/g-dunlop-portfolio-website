@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/g-dunlop-portfolio-website/" element={<PortfolioContainer/>} />
-          <Route path="/g-dunlop-portfolio-website/projects" element={<ProjectsContainer/>}/>
+          <Route path="/g-dunlop-portfolio-website/projects/" element={<ProjectsContainer/>}/>
         </Routes>
 
       </Router>

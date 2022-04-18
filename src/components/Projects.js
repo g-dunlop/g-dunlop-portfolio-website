@@ -11,8 +11,8 @@ const Projects = () => {
         padding:2rem;
         padding-top:2rem;
         // background-color: #A6E3E9;
-        // background-color:#EEEEEE;
-        background-color: #222831 ;
+        // background-color:#EEEEFF;
+        background-color: #292732 ;
         font-size:2rem;
         color:white;
         margin:0;
@@ -26,7 +26,7 @@ const Projects = () => {
     `
 
     const ProjectSection = styled.section`
-        background-color: #222831; 
+        background-color: #292732; 
         display:flex;
         justify-content:space-evenly;
         padding:2rem 0 2rem 0;

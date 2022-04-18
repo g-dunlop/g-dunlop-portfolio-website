@@ -17,7 +17,7 @@ const Skills = () => {
     const [description, setDescription] = useState("")
 
     const skills = {
-        css:"css skill",
+        css:"css",
         git:"git",
         github:"github",
         html5:"html5",
