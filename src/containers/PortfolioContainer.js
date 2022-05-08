@@ -4,14 +4,19 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import About from '../components/About';
 import Contact from '../components/Contact';
+import ProjectsContainer from "./ProjectsContainer";
 
 const PortfolioContainer = () => {
 
     return(
         <>
+          
             <Intro />
+            
             <Skills />
-            <Projects />
+            
+            {/* <Projects /> */}
+            <ProjectsContainer />
             <div className="about-contact-container">
                 <About />
                 <Contact />

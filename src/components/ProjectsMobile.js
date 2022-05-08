@@ -10,7 +10,7 @@ import stockTrackerVid from "../static/stockTracker/stockTrackerVid.mov";
 
 
 
-const Projects = () => {
+const ProjectsMobile = () => {
 
     const Title = styled.h3`
         font-family:Montserrat, sans-serif;
@@ -34,7 +34,9 @@ const Projects = () => {
     const ProjectSection = styled.section`
         background-color: #292732; 
         display:flex;
+        flex-direction:column;
         justify-content:space-evenly;
+        align-items:center;
         padding:2rem 0 2rem 0;
         width:100%;
     `
@@ -42,20 +44,20 @@ const Projects = () => {
     const ProjectHeader = styled.h4`
         color:white;
         font-size:1.5rem;
-        text-align:left;
+        text-align:center;
         margin-top:3rem;
         margin-bottom:0.5rem;
     `
 
     const Paragraph = styled.p`
         color:white;
-        text-align:left;
+        text-align:center;
         font-size:0.8rem;
     `
 
     const Div = styled.div`
         width:400px;
-        text-align:left;
+        text-align:center;
     `
     const Row = styled.hr`
         margin:0;
@@ -70,9 +72,6 @@ const Projects = () => {
             <Row />
             <ProjectSection className="project" id="st">
                 {/* <a href=""><Pic src={StockTracker_1}></Pic></a> */}
-                <video width="400" height="300" autoPlay muted controls loop>
-                    <source src={stockTrackerVid} type="video/mp4"></source>
-                </video>
                 <Div className="description">
                     <ProjectHeader>Stock Tracker</ProjectHeader>
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was a group project that took 6 days.</Paragraph>
@@ -80,7 +79,9 @@ const Projects = () => {
                     <a className="project-icon" href="https://github.com/xboyjx/w10_stocks_project" target="_blank"><img className="project-icon" src={gHub}/></a>
                     <Paragraph>Link to live website</Paragraph>
                 </Div>
-                
+                <video width="400" height="300" autoPlay muted controls loop>
+                    <source src={stockTrackerVid} type="video/mp4"></source>
+                </video>
             </ProjectSection>
             <Row />
             <ProjectSection className="project" id="mg">
@@ -99,9 +100,7 @@ const Projects = () => {
             <Row />
             <ProjectSection className="project" id="vma">
                 {/* <a href=""><Pic src={home}></Pic></a> */}
-                <video width="400" height="300" autoPlay muted controls loop>
-                    <source src={vmaVid} type="video/mp4"></source>
-                </video>
+               
                 <Div className="description">
                     <ProjectHeader>Vet Management App</ProjectHeader>
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was an individual project that took 6 days.</Paragraph>
@@ -109,6 +108,9 @@ const Projects = () => {
                     <a className="project-icon" href="https://github.com/g-dunlop/Project-1-Vet-Management-App" target="_blank"><img className="project-icon" src={gHub}/></a>
                     <Paragraph>Link to live website</Paragraph>
                 </Div>
+                <video width="400" height="300" autoPlay muted controls loop>
+                    <source src={vmaVid} type="video/mp4"></source>
+                </video>
             </ProjectSection>
             <Row />
         </div>
@@ -116,4 +118,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default ProjectsMobile;

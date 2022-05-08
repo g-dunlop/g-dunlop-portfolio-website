@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect} from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+
+import Sidebar from './Sidebar';
+import { useState } from "react";
 
 const Header = () => {
 
@@ -29,17 +31,34 @@ const Header = () => {
         padding:0;
         `
 
+        const [dimensions, setDimensions] = useState({ 
+            height: window.innerHeight,
+            width: window.innerWidth
+          })
+          useEffect(() => {
+            function handleResize() {
+              setDimensions({
+                height: window.innerHeight,
+                width: window.innerWidth
+              })
+            
+        }
+        
+            window.addEventListener('resize', handleResize)
+            return _ => {
+                window.removeEventListener('resize', handleResize)
+            }
+          })
+
+        const breakpoint = 748;
+        
+
     return (
         <>
         <Div className="header">
             <Logo>Graeme Dunlop</Logo>
-            <List>
-                <li><Anchor href="/g-dunlop-portfolio-website/">Home</Anchor></li>
-                <li><Anchor href="#about">About</Anchor></li>
-                <li><Anchor href="#contact">Contact</Anchor></li>
-                <li><Anchor href="#projects">Projects</Anchor></li>
-                
-            </List>
+            {dimensions.width > breakpoint ? <List className="list"> <li><Anchor href="/g-dunlop-portfolio-website/">Home</Anchor></li> <li><Anchor href="#about">About</Anchor></li><li><Anchor href="#contact">Contact</Anchor></li><li><Anchor href="#projects">Projects</Anchor></li></List>:
+            <Sidebar />}
         </Div>
         </>
     )
