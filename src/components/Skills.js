@@ -34,7 +34,6 @@ const Skills = () => {
         setIsShown(true)
         let skill = skills[evt.target.id]
         setDescription(skill)
-        
     }
 
     const handleLeave = () => {
@@ -42,7 +41,7 @@ const Skills = () => {
     }
 
     const Grid = styled.section`
-        // height:90vh;
+        margin-top:2rem;
         display:flex;
         justify-content:space-between;
         width:80%;
@@ -53,6 +52,7 @@ const Skills = () => {
         height:120px;
         display:flex;
         align-items:center;
+        justify-content:center;
     `
 
     const Pic = styled.img`
@@ -71,8 +71,8 @@ const Skills = () => {
         font-family:Montserrat, sans-serif;
         text-align:center;
         padding:1rem;
-        padding-top:2rem;
-        font-size:2rem;
+        
+        font-size:1.5rem;
         color:#222831;
         margin:0;
         // background-color:#EEEEEE;
@@ -80,18 +80,21 @@ const Skills = () => {
     `
 
     const SkillsComponent = styled.section`
-    height:45vh;
+    height:34vh;
     `
     // const GridItem = 
 
     const SkillDescription = styled.h2`
-        padding-bottom:1rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin:0;
     `
     
 
     return (
         <SkillsComponent>
-            <Title>Skills</Title>
+            {/* <Title>Skills</Title> */}
             <GridContainer className="grid-container">
             <Grid className="grid">
                 <PicBox  className="img-container">

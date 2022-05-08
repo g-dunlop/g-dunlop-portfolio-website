@@ -13,17 +13,20 @@ const Header = () => {
     `
 
     const Logo = styled.h3`
-        padding-left:1em;
+        padding-left:3em;
     `
     const List = styled.ul`
         display:flex;
         list-style:none;
         justify-content:space-evenly;
+        align-items:center;
         width:50%;
     `
     const Anchor = styled.a`
         text-decoration:none;
-        color:black
+        color:black;
+        margin:0;
+        padding:0;
         `
 
     return (
@@ -32,9 +35,9 @@ const Header = () => {
             <Logo>Graeme Dunlop</Logo>
             <List>
                 <li><Anchor href="/g-dunlop-portfolio-website/">Home</Anchor></li>
-                <li><Anchor href="">About</Anchor></li>
-                <li><Anchor href="">Contact</Anchor></li>
-                <li><Anchor href="/g-dunlop-portfolio-website/projects/">Projects</Anchor></li>
+                <li><Anchor href="#about">About</Anchor></li>
+                <li><Anchor href="#contact">Contact</Anchor></li>
+                <li><Anchor href="#projects">Projects</Anchor></li>
                 
             </List>
         </Div>

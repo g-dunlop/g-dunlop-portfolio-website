@@ -14,11 +14,13 @@ const Intro = () => {
         width:100%;
         justify-content:space-around;
         align-items:center;
-        height:80vh;
+        height:50vh;
         font-family:Esteban, serif;
         color:#393E46;
         background-image: url(${Banner});
         background-size:cover;
+        background-position:center;
+        // background-repeat:no-repeat;
         
     `
 
@@ -35,16 +37,19 @@ const Intro = () => {
 
     const List = styled.ul`
         list-style:none;
-        text-align:left;
+        text-align:center;
         margin:0;
-        padding:1rem;
+        padding:1.5rem;
         padding-left:4rem;
     `
         const Item = styled.li`
-        padding:1rem 0rem 1rem 0rem;
-        font-size:1.5rem;
+        padding:0.8rem 0rem 1rem 0rem;
+        font-family:Montserrat, sans-serif;
+        font-size:1.2rem;
         margin:0;
-        color:white;
+        color:#D8D8D8;
+        font-weight:bold;
+        
         `
 
         const Pic = styled.img`
@@ -53,8 +58,10 @@ const Intro = () => {
         `
 
         const Div = styled.div`
-        background-color: hsl(260,20%,20%, 0.6);
-        height:80vh;
+        background-color: hsl(260,20%,20%, 0.8);
+        height:50vh;
+        flex:50%;
+        
         `
        
 
@@ -64,14 +71,14 @@ const Intro = () => {
            
             <Container className="intro-container">
                 <Div className="intro-left">
-                    <Title>Introduction</Title>
+                    {/* <Title>Introduction</Title> */}
                     <List>
                        
                      {/* <div><i className="fa fa-spinner fa-spin">no spinner but why</i></div>; */}
                         <Item>Full-Stack Software Developer</Item>
                         <Item>CodeClan Graduate</Item>
                         <Item>15 years in Education</Item>
-                        <Item>Extensive management and Training Experience</Item>
+                        <Item>Extensive Management and Training Experience</Item>
                         <Item>Lifelong Learner</Item>
                     </List>
                 </Div>

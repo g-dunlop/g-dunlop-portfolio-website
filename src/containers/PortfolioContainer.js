@@ -2,6 +2,8 @@ import React from "react";
 import Intro from '../components/Intro';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
+import About from '../components/About';
+import Contact from '../components/Contact';
 
 const PortfolioContainer = () => {
 
@@ -10,6 +12,12 @@ const PortfolioContainer = () => {
             <Intro />
             <Skills />
             <Projects />
+            <div className="about-contact-container">
+                <About />
+                <Contact />
+            </div>
+
+            
         </>
     )
 }

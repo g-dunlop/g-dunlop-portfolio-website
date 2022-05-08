@@ -4,3 +4,58 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat&display=swap');
+
+.project-icon{
+  height:50px;
+  width:50px;
+  background-color:white;
+}
+
+.bolding{
+  font-weight:bold;
+  font-size:0.9rem;
+  
+}
+
+#about{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+}
+
+.flipped-header{
+  transform: rotate(-90deg);
+  padding-top:5rem;
+  letter-spacing: 5px;
+}
+
+.about-container{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  width:75%;
+}
+.about-paragraph{
+  text-align:justify;
+}
+
+.headshot{
+  height:100px;
+  width:140px;
+}
+
+.about-contact-container{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.contact-container{
+  display:flex;
+  flex-direction: column;
+}
+
+.contact-icon{
+  height:50px;
+  width:50px;
+  padding:2rem;
+}
