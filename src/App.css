@@ -80,6 +80,19 @@
   }
 
   .about-paragraph{
-    padding:1rem;
+    padding:1rem 2rem 1rem 2rem;
+    font-size:0.8rem;
+    margin:0;
   }
+}
+
+.footer{
+  background-color:#292732; 
+  padding:1rem;
+}
+
+.footer > .footer-p{
+  margin:0;
+  color:white;
+  font-size:0.6rem;
 }

@@ -5,6 +5,7 @@ import PortfolioContainer from './containers/PortfolioContainer';
 import {BrowserRouter as Router, Routes, Route, Redirect,}from "react-router-dom";
 import ProjectsContainer from './containers/ProjectsContainer';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 
@@ -16,10 +17,11 @@ function App() {
       <Router>
         <Routes>
           <Route path="/g-dunlop-portfolio-website/" element={<PortfolioContainer/>} />
-          <Route path="/g-dunlop-portfolio-website/projects/" element={<ProjectsContainer/>}/>
+          {/* <Route path="/g-dunlop-portfolio-website/projects/" element={<ProjectsContainer/>}/> */}
         </Routes>
 
       </Router>
+      <Footer /> 
     </div>
   );
 }
