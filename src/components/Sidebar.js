@@ -5,7 +5,7 @@ import './Sidebar.css';
 export default props => {
   return (
     <Menu right>
-      <a className="menu-item" href="/">
+      <a className="menu-item" href="/g-dunlop-portfolio-website/">
         Home
       </a>
       <a className="menu-item" href="#about">

@@ -60,6 +60,8 @@
   /* Individual item */
   .bm-item {
     display: inline-block;
+
+    Padding-top:2rem;
   }
   
   /* Styling of overlay */
@@ -70,10 +72,9 @@
   /* Individual item */
 .bm-item {
     display: inline-block;
-  
     color: #d1d1d1;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     transition: color 0.2s;
   }

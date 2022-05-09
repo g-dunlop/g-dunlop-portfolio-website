@@ -7,13 +7,13 @@ import Banner from "../static/coding-banner.jpg";
 
 
 
-const Intro = () => {
+const IntroMobile = () => {
 
     const Container = styled.section`
         display:flex;
-        flex-direction:column;
+       
         width:100%;
-        justify-content:space-evenly;
+        justify-content:center;
         align-items:center;
         height:50vh;
         font-family:Esteban, serif;
@@ -36,8 +36,12 @@ const Intro = () => {
     `
 
     const List = styled.ul`
+        display:flex;
+        flex-direction:column;
+        align-items:center;
         list-style:none;
         text-align:center;
+        justify-content:center;
         margin:0;
         padding:1.5rem;
         // padding-left:4rem;
@@ -45,7 +49,7 @@ const Intro = () => {
         const Item = styled.li`
         padding:0.8rem 0rem 1rem 0rem;
         font-family:Montserrat, sans-serif;
-        font-size:1.2rem;
+        font-size:1rem;
         margin:0;
         color:#D8D8D8;
         font-weight:bold;
@@ -81,13 +85,11 @@ const Intro = () => {
                         <Item>Lifelong Learner</Item>
                     </List>
                 </Div>
-                <div className="intro-right">
-                    
-                </div>
+              
 
             </Container> 
         </>
     )
 }
 
-export default Intro;
+export default IntroMobile;
