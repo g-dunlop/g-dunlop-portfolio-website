@@ -23,6 +23,7 @@ const Projects = () => {
         font-size:2rem;
         color:white;
         margin:0;
+        letter-spacing:2px;
     `
 
     const Pic = styled.img`
@@ -45,6 +46,7 @@ const Projects = () => {
         text-align:left;
         margin-top:3rem;
         margin-bottom:0.5rem;
+        letter-spacing:1px;
     `
 
     const Paragraph = styled.p`
@@ -76,7 +78,7 @@ const Projects = () => {
                 <Div className="description">
                     <ProjectHeader>Stock Tracker</ProjectHeader>
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was a group project that took 6 days.</Paragraph>
-                    <Paragraph><span className="bolding">Tools: </span> Built with React, Node js, Express, MongoDB, APIs, Git</Paragraph>
+                    <Paragraph><span className="bolding">Tools: </span> Built with React, Node js, Express, MongoDB, APIs, Git.</Paragraph>
                     <a className="project-icon" href="https://github.com/xboyjx/w10_stocks_project" target="_blank"><img className="project-icon" src={gHub}/></a>
                     <Paragraph>Link to live website</Paragraph>
                 </Div>
@@ -87,7 +89,7 @@ const Projects = () => {
                 <Div className="description">
                     <ProjectHeader>Memory Game</ProjectHeader>
                     <Paragraph><span className="bolding">About: </span>Full-stack app built on week 8 of the CodeClan course.  This was an individual project that took 3 days.</Paragraph>
-                    <Paragraph><span className="bolding">Tools: </span>Built with React, Node js, Express, MongoDB</Paragraph>
+                    <Paragraph><span className="bolding">Tools: </span>Built with React, Node js, Express, MongoDB.</Paragraph>
                     <a className="project-icon" href="https://github.com/g-dunlop/memory-game" target="_blank"><img className="project-icon" src={gHub}/></a>
                     <Paragraph>Link to live website</Paragraph>
                 </Div>
@@ -105,7 +107,7 @@ const Projects = () => {
                 <Div className="description">
                     <ProjectHeader>Vet Management App</ProjectHeader>
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was an individual project that took 6 days.</Paragraph>
-                    <Paragraph><span className="bolding">Tools: </span>Built with Python, Flask, Jinja, PostgreSQL</Paragraph>
+                    <Paragraph><span className="bolding">Tools: </span>Built with Python, Flask, Jinja, PostgreSQL.</Paragraph>
                     <a className="project-icon" href="https://github.com/g-dunlop/Project-1-Vet-Management-App" target="_blank"><img className="project-icon" src={gHub}/></a>
                     <Paragraph>Link to live website</Paragraph>
                 </Div>

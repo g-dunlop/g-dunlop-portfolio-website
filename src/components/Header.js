@@ -16,6 +16,7 @@ const Header = () => {
 
     const Logo = styled.h3`
         padding-left:3em;
+        
     `
     const List = styled.ul`
         display:flex;

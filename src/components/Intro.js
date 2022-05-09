@@ -49,6 +49,7 @@ const Intro = () => {
         margin:0;
         color:#D8D8D8;
         font-weight:bold;
+        letter-spacing:1px;
         
         `
 
