@@ -38,7 +38,7 @@ const ProjectsMobile = () => {
         flex-direction:column;
         justify-content:space-evenly;
         align-items:center;
-        padding:2rem 0 2rem 0;
+        padding:1rem 0 1rem 0;
         width:100%;
     `
 
@@ -47,7 +47,7 @@ const ProjectsMobile = () => {
         font-size:1.5rem;
         text-align:center;
         margin-top:1rem;
-        margin-bottom:0.5rem;
+        margin-bottom:1.5rem;
         letter-spacing:1px;
     `
 

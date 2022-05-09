@@ -80,7 +80,8 @@ const Skills = () => {
     `
 
     const SkillsComponent = styled.section`
-    height:34vh;
+    height:35vh;
+    margin:bottom:1rem;
     `
     // const GridItem = 
 

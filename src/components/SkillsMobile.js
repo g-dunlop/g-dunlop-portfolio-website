@@ -42,6 +42,7 @@ const SkillsMobile = () => {
 
     const Grid = styled.section`
         margin-top:2rem;
+        margin-bottom:2rem;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -65,6 +66,7 @@ const SkillsMobile = () => {
     const GridContainer = styled.section`
         display:flex;
         justify-content:center;
+       
         // background-color:#EEEEEE;
         // background-color: #A6E3E9;
     `
@@ -82,7 +84,8 @@ const SkillsMobile = () => {
     `
 
     const SkillsComponent = styled.section`
-    height:45vh;
+    height:auto;
+    
     `
     // const GridItem = 
 
@@ -90,7 +93,7 @@ const SkillsMobile = () => {
         display:flex;
         justify-content:center;
         align-items:center;
-        margin-top:5px;
+        margin-top:2px;
     `
     
 

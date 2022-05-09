@@ -11,11 +11,11 @@ const IntroMobile = () => {
 
     const Container = styled.section`
         display:flex;
-       
+        flex-wrap:wrap;
         width:100%;
         justify-content:center;
         align-items:center;
-        height:40vh;
+        height:auto;
         font-family:Esteban, serif;
         color:#393E46;
         background-image: url(${Banner});
@@ -38,6 +38,7 @@ const IntroMobile = () => {
     const List = styled.ul`
         display:flex;
         flex-direction:column;
+        flex-wrap:wrap;
         align-items:center;
         list-style:none;
         text-align:center;
@@ -63,7 +64,7 @@ const IntroMobile = () => {
 
         const Div = styled.div`
         background-color: hsl(260,20%,20%, 0.8);
-        height:40vh;
+        height:auto;
         width:100%;
         
         `

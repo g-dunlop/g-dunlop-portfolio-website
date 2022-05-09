@@ -12,10 +12,11 @@ const Intro = () => {
     const Container = styled.section`
         display:flex;
         flex-direction:column;
+        flex-wrap:wrap;
         width:100%;
         justify-content:space-evenly;
         align-items:center;
-        height:50vh;
+        height:auto;
         font-family:Esteban, serif;
         color:#393E46;
         background-image: url(${Banner});
@@ -59,7 +60,7 @@ const Intro = () => {
 
         const Div = styled.div`
         background-color: hsl(260,20%,20%, 0.8);
-        height:50vh;
+        height:auto;
         width:100%;
         
         `
