@@ -15,7 +15,7 @@ const IntroMobile = () => {
         width:100%;
         justify-content:center;
         align-items:center;
-        height:50vh;
+        height:40vh;
         font-family:Esteban, serif;
         color:#393E46;
         background-image: url(${Banner});
@@ -43,13 +43,13 @@ const IntroMobile = () => {
         text-align:center;
         justify-content:center;
         margin:0;
-        padding:1.5rem;
+        padding:1rem;
         // padding-left:4rem;
     `
         const Item = styled.li`
         padding:0.8rem 0rem 1rem 0rem;
         font-family:Montserrat, sans-serif;
-        font-size:1rem;
+        font-size:0.8em;
         margin:0;
         color:#D8D8D8;
         font-weight:bold;
@@ -63,7 +63,7 @@ const IntroMobile = () => {
 
         const Div = styled.div`
         background-color: hsl(260,20%,20%, 0.8);
-        height:50vh;
+        height:40vh;
         width:100%;
         
         `

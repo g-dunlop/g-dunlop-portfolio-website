@@ -1,9 +1,9 @@
 import React from "react";
 import {useEffect, useState} from 'react';
-import Intro from "../components/Intro";
-import IntroMobile from "../components/IntroMobile";
+import Skills from "../components/Skills";
+import SkillsMobile from "../components/SkillsMobile";
 
-const IntroContainer = () => {
+const SkillsContainer = () => {
 
 
     const [dimensions, setDimensions] = useState({ 
@@ -31,9 +31,9 @@ const IntroContainer = () => {
 
     return(
         <>
-        {dimensions.width > breakpoint ? <Intro />:<IntroMobile />}
+        {dimensions.width > breakpoint ? <Skills />:<SkillsMobile />}
         </>
     )
 }
 
-export default IntroContainer;
+export default SkillsContainer;

@@ -71,6 +71,7 @@
 
   #about{
     flex-direction:column;
+    width:90%;
   }
 
   .flipped-header{

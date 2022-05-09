@@ -5,6 +5,7 @@ import Projects from '../components/Projects';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import ProjectsContainer from "./ProjectsContainer";
+import SkillsContainer from "./SkillsContainer";
 
 const PortfolioContainer = () => {
 
@@ -13,7 +14,7 @@ const PortfolioContainer = () => {
           
             <IntroContainer />
             
-            <Skills />
+            <SkillsContainer />
             
             {/* <Projects /> */}
             <ProjectsContainer />

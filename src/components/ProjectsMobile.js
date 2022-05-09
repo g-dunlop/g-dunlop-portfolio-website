@@ -82,7 +82,7 @@ const ProjectsMobile = () => {
                     <a className="project-icon" href="https://github.com/xboyjx/w10_stocks_project" target="_blank"><img className="project-icon" src={gHub}/></a>
                     <Paragraph>Link to live website</Paragraph>
                 </Div>
-                <video width="300" height="230" autoPlay muted controls loop>
+                <video width="350" height="270" autoPlay muted controls loop>
                     <source src={stockTrackerVid} type="video/mp4"></source>
                 </video>
             </ProjectSection>
@@ -96,7 +96,7 @@ const ProjectsMobile = () => {
                     <Paragraph>Link to live website</Paragraph>
                 </Div>
                 {/* <a href=""><Pic src={memorygame}></Pic></a> */}
-                <video width="300" height="230" autoPlay muted controls loop>
+                <video width="350" height="270" autoPlay muted controls loop>
                     <source src={MemoryGameVid} type="video/mp4"></source>
                 </video>
             </ProjectSection>
@@ -111,7 +111,7 @@ const ProjectsMobile = () => {
                     <a className="project-icon" href="https://github.com/g-dunlop/Project-1-Vet-Management-App" target="_blank"><img className="project-icon" src={gHub}/></a>
                     <Paragraph>Link to live website</Paragraph>
                 </Div>
-                <video width="300" height="230" autoPlay muted controls loop>
+                <video width="350" height="270" autoPlay muted controls loop>
                     <source src={vmaVid} type="video/mp4"></source>
                 </video>
             </ProjectSection>

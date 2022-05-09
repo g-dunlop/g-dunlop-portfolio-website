@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import styled from "styled-components";
-import Guitar from "../static/guitar.jpg";
+
 import css3 from "../static/css3.svg";
 import git from "../static/git.svg";
 import github from "../static/github.svg";
