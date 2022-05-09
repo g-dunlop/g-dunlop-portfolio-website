@@ -1,6 +1,6 @@
 import React from "react";
 import {useEffect, useState} from 'react';
-import Header from "../components/Intro";
+import Header from "../components/Header";
 import HeaderMobile from "../components/HeaderMobile";
 
 const HeaderContainer = () => {
