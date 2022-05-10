@@ -41,7 +41,7 @@ const Skills = () => {
     }
 
     const Grid = styled.section`
-        margin-top:2rem;
+        margin-top:0;
         display:flex;
         justify-content:space-between;
         width:80%;
