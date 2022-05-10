@@ -5,7 +5,7 @@ import './Sidebar.css';
 export default props => {
   return (
     
-      <Menu width={'40%'} right  >
+      <Menu width={'50%'} right  >
         <a className="menu-item" href="/g-dunlop-portfolio-website/">
           Home
         </a>
