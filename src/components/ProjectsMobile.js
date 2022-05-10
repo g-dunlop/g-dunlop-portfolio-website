@@ -23,7 +23,7 @@ const ProjectsMobile = () => {
         font-size:2rem;
         color:white;
         margin:0;
-        letter-spacing:2px;
+        letter-spacing:5px;
     `
 
     const Pic = styled.img`
@@ -56,6 +56,7 @@ const ProjectsMobile = () => {
         text-align:justify;
         font-size:0.8rem;
         padding:0 2rem 0 2rem;
+        line-height:1.5;
     `
 
     const Div = styled.div`

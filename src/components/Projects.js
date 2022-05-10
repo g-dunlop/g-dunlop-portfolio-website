@@ -23,7 +23,7 @@ const Projects = () => {
         font-size:2rem;
         color:white;
         margin:0;
-        letter-spacing:2px;
+        letter-spacing:5px;
     `
 
     const Pic = styled.img`
@@ -53,6 +53,7 @@ const Projects = () => {
         color:white;
         text-align:left;
         font-size:0.8rem;
+        line-height:1.5;
     `
 
     const Div = styled.div`

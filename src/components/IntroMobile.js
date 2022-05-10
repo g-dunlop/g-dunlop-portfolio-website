@@ -50,7 +50,7 @@ const IntroMobile = () => {
         const Item = styled.li`
         padding:0.8rem 0rem 1rem 0rem;
         font-family:Montserrat, sans-serif;
-        font-size:0.8em;
+        font-size:1em;
         margin:0;
         color:#D8D8D8;
         font-weight:bold;

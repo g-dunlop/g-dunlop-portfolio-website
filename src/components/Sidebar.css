@@ -6,6 +6,12 @@
     right: 36px;
     top: 36px;
   }
+
+  @media screen and (max-width:900px){
+    .bm-burger-button {
+      right:18px;
+    }
+  }
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
