@@ -70,6 +70,7 @@ const Skills = () => {
     const Title = styled.h3`
         font-family:Montserrat, sans-serif;
         text-align:center;
+        font-size:2rem;
         padding:1rem;
         letter-spacing:5px;
         font-size:2rem;

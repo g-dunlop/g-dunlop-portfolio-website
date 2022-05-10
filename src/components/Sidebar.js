@@ -4,19 +4,21 @@ import './Sidebar.css';
 
 export default props => {
   return (
-    <Menu right>
-      <a className="menu-item" href="/g-dunlop-portfolio-website/">
-        Home
-      </a>
-      <a className="menu-item" href="#about">
-        About
-      </a>
-      <a className="menu-item" href="#contact">
-        Contact
-      </a>
-      <a className="menu-item" href="#projects">
-        Projects
-      </a>
-    </Menu>
+    
+      <Menu width={'40%'} right  >
+        <a className="menu-item" href="/g-dunlop-portfolio-website/">
+          Home
+        </a>
+        <a className="menu-item" href="#about">
+          About
+        </a>
+        <a className="menu-item" href="#contact">
+          Contact
+        </a>
+        <a className="menu-item" href="#projects">
+          Projects
+        </a>
+      </Menu>
+   
   );
 };
