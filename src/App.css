@@ -63,6 +63,12 @@
   padding:2rem;
 }
 
+#email{
+  padding:1.8rem;
+  height:57px;
+  width:56px;
+}
+
 
 @media screen and (max-width:900px){
 

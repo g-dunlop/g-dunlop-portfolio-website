@@ -10,7 +10,7 @@ const Contact = () => {
         <hr></hr>
         <div id="contact" className="contact-container">
         <a href="https://vn.linkedin.com/in/graeme-dunlop-537219138" target="_blank"><img className="contact-icon" src={linkedIn}></img></a>
-        <a href="mailto:graemedunlop1983@gmail.com"><img className="contact-icon" src={email}></img></a>
+        <a href="mailto:graemedunlop1983@gmail.com"><img className="contact-icon"  id="email" src={email}></img></a>
         </div>
         </>
     )
