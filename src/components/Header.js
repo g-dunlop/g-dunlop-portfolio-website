@@ -15,7 +15,7 @@ const Header = () => {
     `
 
     const Logo = styled.h3`
-        padding-left:3em;
+        padding-left:2em;
         
     `
     const List = styled.ul`

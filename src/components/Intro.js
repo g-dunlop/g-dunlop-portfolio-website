@@ -3,7 +3,7 @@ import styled from "styled-components";
 import TreePic from "../static/tree_pic.jpg";
 import MountainRange from "../static/mountain_range.jpg";
 import Banner from "../static/coding-banner.jpg";
-import logo from "../static/icons/logo.png"
+import logo2 from "../static/icons/Logo2.png"
 
 
 
@@ -23,6 +23,7 @@ const Intro = () => {
         background-image: url(${Banner});
         background-size:cover;
         background-position:center;
+        z-index:-1;
         // background-repeat:no-repeat;
     `
 
@@ -41,7 +42,7 @@ const Intro = () => {
         list-style:none;
         text-align:center;
         margin:0;
-        padding:0 1.5rem 1.5rem 1.5rem;
+        padding:1.5rem 1.5rem 1.5rem 1.5rem;
         // padding-left:4rem;
     `
         const Item = styled.li`
@@ -76,6 +77,9 @@ const Intro = () => {
         height:100px;
         width:150px;
         margin:0;
+        position:absolute;
+        left:1.5rem;
+     
         `
        
 
@@ -86,7 +90,7 @@ const Intro = () => {
             <Container className="intro-container">
                 <Div className="intro-left">
                     {/* <Title>Hello. I'm Graeme.</Title> */}
-                    <Logo src={logo} />
+                    <Logo src={logo2} />
                     {/* <Row /> */}
                     <List>
                      {/* <div><i className="fa fa-spinner fa-spin">no spinner but why</i></div>; */}
