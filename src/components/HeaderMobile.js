@@ -17,6 +17,7 @@ const HeaderMobile = () => {
     const Logo = styled.h3`
         text-align:right;
         padding-top:0.5rem;
+        padding-left:0.5rem;
     `
     const List = styled.ul`
         display:flex;
