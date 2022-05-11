@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import './Sidebar.css';
 
 export default props => {
+  const [isOpen, setIsOpen] = ('true');
+
+  
+  
+
   return (
-    
-      <Menu width={'50%'} right  >
-        <a className="menu-item" href="/g-dunlop-portfolio-website/">
+    <>
+      <Menu width={'50%'}  right  >
+        <a  className="menu-item" href="/g-dunlop-portfolio-website/">
           Home
         </a>
         <a className="menu-item" href="#about">
@@ -19,6 +24,6 @@ export default props => {
           Projects
         </a>
       </Menu>
-   
+      </>
   );
 };

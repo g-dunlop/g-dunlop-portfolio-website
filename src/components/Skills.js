@@ -71,7 +71,7 @@ const Skills = () => {
         font-family:Montserrat, sans-serif;
         text-align:center;
         font-size:2rem;
-        padding:1rem;
+        padding:2rem;
         letter-spacing:5px;
         font-size:2rem;
         color:#222831;
@@ -81,7 +81,7 @@ const Skills = () => {
     `
 
     const SkillsComponent = styled.section`
-    height:40vh;
+    height:45vh;
     margin:bottom:1rem;
     `
     // const GridItem = 
@@ -97,6 +97,7 @@ const Skills = () => {
     return (
         <SkillsComponent>
             <Title>Skills</Title>
+            <hr></hr>
             <GridContainer className="grid-container">
             <Grid className="grid">
                 <PicBox  className="img-container">

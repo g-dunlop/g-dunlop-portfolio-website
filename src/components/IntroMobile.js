@@ -3,6 +3,7 @@ import styled from "styled-components";
 import TreePic from "../static/tree_pic.jpg";
 import MountainRange from "../static/mountain_range.jpg";
 import Banner from "../static/coding-banner.jpg";
+import logo from "../static/icons/logo.png"
 
 
 
@@ -26,10 +27,10 @@ const IntroMobile = () => {
 
     const Title = styled.h3`
         font-family:Montserrat, sans-serif;
-        text-align:left;
+        text-align:center;
         padding:1rem;
-        padding-left:4rem;
-        padding-top:4.5rem;
+        padding: 1rem;
+        padding-top:2rem;
         font-size:2rem;
         color:white;
         margin:0;
@@ -63,10 +64,16 @@ const IntroMobile = () => {
         `
 
         const Div = styled.div`
-        background-color: hsl(260,20%,20%, 0.8);
+        // background-color: hsla(275,20%,15%, 0.8);
+        background-color:#292732;
+        opacity:0.9;
         height:auto;
         width:100%;
-        
+        `
+
+        const Logo = styled.img`
+        height:110px;
+        width:150px;
         `
        
 
@@ -76,7 +83,8 @@ const IntroMobile = () => {
            
             <Container className="intro-container">
                 <Div className="intro-left">
-                    {/* <Title>Introduction</Title> */}
+                    {/* <Title>Hello. I'm Graeme.</Title> */}
+                    <Logo src={logo} />
                     <List>
                      {/* <div><i className="fa fa-spinner fa-spin">no spinner but why</i></div>; */}
                         <Item>Full-Stack Software Developer</Item>

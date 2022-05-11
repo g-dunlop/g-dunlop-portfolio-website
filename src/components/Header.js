@@ -30,7 +30,13 @@ const Header = () => {
         color:black;
         margin:0;
         padding:0;
+        transition: text-decoration 2s ease-in;
+        &:hover{
+            text-decoration:underline;
+        }
         `
+
+    
 
         const [dimensions, setDimensions] = useState({ 
             height: window.innerHeight,

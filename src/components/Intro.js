@@ -3,6 +3,7 @@ import styled from "styled-components";
 import TreePic from "../static/tree_pic.jpg";
 import MountainRange from "../static/mountain_range.jpg";
 import Banner from "../static/coding-banner.jpg";
+import logo from "../static/icons/logo.png"
 
 
 
@@ -27,10 +28,10 @@ const Intro = () => {
 
     const Title = styled.h3`
         font-family:Montserrat, sans-serif;
-        text-align:left;
-        padding:1rem;
-        padding-left:4rem;
-        padding-top:4.5rem;
+        text-align:center;
+        padding:2rem;
+        padding-top:2rem;
+        // padding-top:4.5rem;
         font-size:2rem;
         color:white;
         margin:0;
@@ -40,7 +41,7 @@ const Intro = () => {
         list-style:none;
         text-align:center;
         margin:0;
-        padding:1.5rem;
+        padding:0 1.5rem 1.5rem 1.5rem;
         // padding-left:4rem;
     `
         const Item = styled.li`
@@ -59,10 +60,22 @@ const Intro = () => {
         `
 
         const Div = styled.div`
-        background-color: hsl(260,20%,20%, 0.8);
+        // background-color: hsla(275,20%,15%, 0.8);
+        background-color:#292732;
+        opacity:0.9;
         height:auto;
         width:100%;
-        
+        `
+
+        const Row = styled.hr`
+        margin:0;
+        color:white;
+        padding:0rem;   
+    `
+        const Logo = styled.img`
+        height:100px;
+        width:150px;
+        margin:0;
         `
        
 
@@ -72,7 +85,9 @@ const Intro = () => {
            
             <Container className="intro-container">
                 <Div className="intro-left">
-                    {/* <Title>Introduction</Title> */}
+                    {/* <Title>Hello. I'm Graeme.</Title> */}
+                    <Logo src={logo} />
+                    {/* <Row /> */}
                     <List>
                      {/* <div><i className="fa fa-spinner fa-spin">no spinner but why</i></div>; */}
                         <Item>Full-Stack Software Developer</Item>
