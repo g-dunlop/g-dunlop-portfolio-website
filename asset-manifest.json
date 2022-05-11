@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/g-dunlop-portfolio-website/static/css/main.4e9c1add.css",
-    "main.js": "/g-dunlop-portfolio-website/static/js/main.772914d2.js",
+    "main.js": "/g-dunlop-portfolio-website/static/js/main.82c75e51.js",
     "static/js/787.7e3e4712.chunk.js": "/g-dunlop-portfolio-website/static/js/787.7e3e4712.chunk.js",
     "static/media/MemoryGameVid.mov": "/g-dunlop-portfolio-website/static/media/MemoryGameVid.6562233de9b5a2830c19.mov",
     "static/media/vmaVid.mov": "/g-dunlop-portfolio-website/static/media/vmaVid.d39922a60bb373c78fe3.mov",
@@ -13,6 +13,7 @@
     "static/media/StockTracker_1.png": "/g-dunlop-portfolio-website/static/media/StockTracker_1.0f780ad71d368e40f549.png",
     "static/media/headshot.jpg": "/g-dunlop-portfolio-website/static/media/headshot.d8c4afd240ca8fe3fff5.jpg",
     "static/media/mountain_range.jpg": "/g-dunlop-portfolio-website/static/media/mountain_range.3812be640cf0abb90023.jpg",
+    "static/media/logo.png": "/g-dunlop-portfolio-website/static/media/logo.c191eaf0d5bf01957054.png",
     "static/media/react.svg": "/g-dunlop-portfolio-website/static/media/react.b9ee6e1d0ee75ee94813aabb411b463d.svg",
     "static/media/github.svg": "/g-dunlop-portfolio-website/static/media/github.833b63e28cadf07403bc81451d30b858.svg",
     "static/media/java.svg": "/g-dunlop-portfolio-website/static/media/java.22c44c41c94e0ddff73ea5806edc71f1.svg",
@@ -24,11 +25,11 @@
     "static/media/css3.svg": "/g-dunlop-portfolio-website/static/media/css3.48fde97df5ef68b54506ffb154905c4f.svg",
     "static/media/html5.svg": "/g-dunlop-portfolio-website/static/media/html5.280fcec471ee0f3842bcb8ff7c9bbf23.svg",
     "main.4e9c1add.css.map": "/g-dunlop-portfolio-website/static/css/main.4e9c1add.css.map",
-    "main.772914d2.js.map": "/g-dunlop-portfolio-website/static/js/main.772914d2.js.map",
+    "main.82c75e51.js.map": "/g-dunlop-portfolio-website/static/js/main.82c75e51.js.map",
     "787.7e3e4712.chunk.js.map": "/g-dunlop-portfolio-website/static/js/787.7e3e4712.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e9c1add.css",
-    "static/js/main.772914d2.js"
+    "static/js/main.82c75e51.js"
   ]
 }
