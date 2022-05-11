@@ -45,7 +45,7 @@ const IntroMobile = () => {
         text-align:center;
         justify-content:center;
         margin:0;
-        padding:1rem;
+        padding:0rem 1rem 1rem 1rem;
         // padding-left:4rem;
     `
         const Item = styled.li`

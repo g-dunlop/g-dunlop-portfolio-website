@@ -56,14 +56,16 @@ const ProjectsMobile = () => {
         color:white;
         text-align:justify;
         font-size:0.8rem;
-        padding:0 2rem 0 2rem;
+        padding:0 0rem 0 0rem;
         line-height:1.5;
         
     `
 
     const Div = styled.div`
-        width:100%;
+        width:75%;
         text-align:center;
+       
+
     `
     const Row = styled.hr`
         margin:0;
@@ -80,6 +82,7 @@ const ProjectsMobile = () => {
                 {/* <a href=""><Pic src={StockTracker_1}></Pic></a> */}
                 <Div className="description">
                     <ProjectHeader>Stock Tracker</ProjectHeader>
+
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was a group project that took 6 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span>  Built with React, Node js, Express, MongoDB, APIs, Git.</Paragraph>
                     <a className="project-icon" href="https://github.com/xboyjx/w10_stocks_project" target="_blank"><img className="project-icon" src={gHub}/></a>

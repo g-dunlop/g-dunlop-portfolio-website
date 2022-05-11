@@ -80,6 +80,7 @@
   #about{
     flex-direction:column;
     width:100%;
+    
   }
 
   .flipped-header{
@@ -93,14 +94,14 @@
   }
 
   .about-paragraph{
-    padding:1rem 2rem 1rem 2rem;
+    padding:1rem 0em 0rem 0rem;
     font-size:0.8rem;
     margin:0;
     line-height:1.5;
   }
 
   .about-container{
-    width:100%;
+    width:75%;
   }
 
   .headshot{
