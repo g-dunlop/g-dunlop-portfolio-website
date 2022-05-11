@@ -36,6 +36,7 @@ const ProjectsMobile = () => {
         background-color: #292732; 
         display:flex;
         flex-direction:column;
+        flex-wrap:wrap;
         justify-content:space-evenly;
         align-items:center;
         padding:1rem 0 1rem 0;
@@ -57,10 +58,11 @@ const ProjectsMobile = () => {
         font-size:0.8rem;
         padding:0 2rem 0 2rem;
         line-height:1.5;
+        
     `
 
     const Div = styled.div`
-        width:400px;
+        width:100%;
         text-align:center;
     `
     const Row = styled.hr`
@@ -81,7 +83,7 @@ const ProjectsMobile = () => {
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was a group project that took 6 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span>  Built with React, Node js, Express, MongoDB, APIs, Git.</Paragraph>
                     <a className="project-icon" href="https://github.com/xboyjx/w10_stocks_project" target="_blank"><img className="project-icon" src={gHub}/></a>
-                    <Paragraph>Link to live website</Paragraph>
+                   
                 </Div>
                 <video width="350" height="270" autoPlay muted controls loop>
                     <source src={stockTrackerVid} type="video/mp4"></source>
@@ -94,7 +96,7 @@ const ProjectsMobile = () => {
                     <Paragraph><span className="bolding">About: </span>Full-stack app built on week 8 of the CodeClan course.  This was an individual project that took 3 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span>  Built with React, Node js, Express, MongoDB.</Paragraph>
                     <a className="project-icon" href="https://github.com/g-dunlop/memory-game" target="_blank"><img className="project-icon" src={gHub}/></a>
-                    <Paragraph>Link to live website</Paragraph>
+                    
                 </Div>
                 {/* <a href=""><Pic src={memorygame}></Pic></a> */}
                 <video width="350" height="270" autoPlay muted controls loop>
@@ -110,7 +112,7 @@ const ProjectsMobile = () => {
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was an individual project that took 6 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span>  Built with Python, Flask, Jinja, PostgreSQL.</Paragraph>
                     <a className="project-icon" href="https://github.com/g-dunlop/Project-1-Vet-Management-App" target="_blank"><img className="project-icon" src={gHub}/></a>
-                    <Paragraph>Link to live website</Paragraph>
+                    
                 </Div>
                 <video width="350" height="270" autoPlay muted controls loop>
                     <source src={vmaVid} type="video/mp4"></source>

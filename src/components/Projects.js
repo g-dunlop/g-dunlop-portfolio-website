@@ -81,7 +81,7 @@ const Projects = () => {
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was a group project that took 6 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span> Built with React, Node js, Express, MongoDB, APIs, Git.</Paragraph>
                     <a className="project-icon" href="https://github.com/xboyjx/w10_stocks_project" target="_blank"><img className="project-icon" src={gHub}/></a>
-                    <Paragraph>Link to live website</Paragraph>
+                    
                 </Div>
                 
             </ProjectSection>
@@ -92,7 +92,7 @@ const Projects = () => {
                     <Paragraph><span className="bolding">About: </span>Full-stack app built on week 8 of the CodeClan course.  This was an individual project that took 3 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span>Built with React, Node js, Express, MongoDB.</Paragraph>
                     <a className="project-icon" href="https://github.com/g-dunlop/memory-game" target="_blank"><img className="project-icon" src={gHub}/></a>
-                    <Paragraph>Link to live website</Paragraph>
+                    
                 </Div>
                 {/* <a href=""><Pic src={memorygame}></Pic></a> */}
                 <video width="400" height="300" autoPlay muted controls loop>
@@ -110,7 +110,7 @@ const Projects = () => {
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was an individual project that took 6 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span>Built with Python, Flask, Jinja, PostgreSQL.</Paragraph>
                     <a className="project-icon" href="https://github.com/g-dunlop/Project-1-Vet-Management-App" target="_blank"><img className="project-icon" src={gHub}/></a>
-                    <Paragraph>Link to live website</Paragraph>
+                    
                 </Div>
             </ProjectSection>
             <Row />

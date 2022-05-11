@@ -10,7 +10,7 @@ export default props => {
 
   return (
     <>
-      <Menu width={'50%'}  right  >
+      <Menu width={'45%'}  right  >
         <a  className="menu-item" href="/g-dunlop-portfolio-website/">
           Home
         </a>
