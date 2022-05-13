@@ -47,11 +47,11 @@ const SkillsMobile = () => {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-content:space-between;
-        width:80%;
+        width:100%;
     `
 
     const PicBox = styled.section`
-        width:85%;
+        width:100%;
         height:60px;
         display:flex;
         align-items:center;
@@ -66,6 +66,7 @@ const SkillsMobile = () => {
     const GridContainer = styled.section`
         display:flex;
         justify-content:center;
+        width:100%;
        
         // background-color:#EEEEEE;
         // background-color: #A6E3E9;
