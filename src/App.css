@@ -70,6 +70,19 @@
   width:56px;
 }
 
+#about{
+  display:flex;
+  flex-direction:row;
+}
+
+hr{
+  width:1px;
+}
+
+.skills-hr{
+  width:100%;
+}
+
 
 @media screen and (max-width:900px){
 
@@ -77,10 +90,20 @@
     display:block;
   }
 
+  hr{
+    width:100%;
+    
+  }
+
   #about-body{
     flex-direction:column;
     width:100%;
     
+  }
+
+  #about{
+    display:flex;
+    flex-direction:column;
   }
 
   .flipped-header{

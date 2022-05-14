@@ -97,7 +97,7 @@ const Skills = () => {
     return (
         <SkillsComponent>
             <Title>Skills</Title>
-            <hr></hr>
+          <hr className="skills-hr"></hr>
             <GridContainer className="grid-container">
             <Grid className="grid">
                 <PicBox  className="img-container">

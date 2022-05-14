@@ -42,7 +42,7 @@ const SkillsMobile = () => {
 
     const Grid = styled.section`
         margin-top:0rem;
-        margin-bottom:2rem;
+        margin-bottom:1rem;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -66,6 +66,7 @@ const SkillsMobile = () => {
     const GridContainer = styled.section`
         display:flex;
         justify-content:center;
+        align-items:center;
         width:100%;
        
         // background-color:#EEEEEE;
@@ -75,7 +76,7 @@ const SkillsMobile = () => {
     const Title = styled.h3`
         font-family:Montserrat, sans-serif;
         text-align:center;
-        padding:1rem;
+        padding:2rem;
         letter-spacing:5px;
         font-size:2rem;
         color:#222831;
@@ -101,6 +102,7 @@ const SkillsMobile = () => {
     return (
         <SkillsComponent>
             <Title>Skills</Title>
+            <hr Classname="skills-hr"></hr>
             <GridContainer className="grid-container">
             <Grid className="grid">
                 <PicBox  className="img-container">
