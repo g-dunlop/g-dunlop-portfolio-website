@@ -27,15 +27,16 @@ export default props => {
         <a  className="menu-item" onClick={closeSideBar} href="/g-dunlop-portfolio-website/">
           Home
         </a>
+        <a className="menu-item"  onClick={closeSideBar} href="#projects">
+          Projects
+        </a>
         <a className="menu-item" onClick={closeSideBar} href="#about">
           About
         </a>
         <a className="menu-item" onClick={closeSideBar} href="#contact">
           Contact
         </a>
-        <a className="menu-item"  onClick={closeSideBar} href="#projects">
-          Projects
-        </a>
+        
       </Menu>
       </>
   );

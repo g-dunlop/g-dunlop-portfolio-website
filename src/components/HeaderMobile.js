@@ -59,7 +59,7 @@ const HeaderMobile = () => {
         <>
         <Div className="header">
             <Logo>Graeme Dunlop</Logo>
-            {dimensions.width > breakpoint ? <List className="list"> <li><Anchor href="/g-dunlop-portfolio-website/">Home</Anchor></li> <li><Anchor href="#about">About</Anchor></li><li><Anchor href="#contact">Contact</Anchor></li><li><Anchor href="#projects">Projects</Anchor></li></List>:
+            {dimensions.width > breakpoint ? <List className="list"> <li><Anchor href="/g-dunlop-portfolio-website/">Home</Anchor></li><li><Anchor href="#projects">Projects</Anchor></li> <li><Anchor href="#about">About</Anchor></li><li><Anchor href="#contact">Contact</Anchor></li></List>:
             <Sidebar />}
         </Div>
         </>
