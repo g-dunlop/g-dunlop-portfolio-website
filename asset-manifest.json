@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/g-dunlop-portfolio-website/static/css/main.3f9b3f0e.css",
-    "main.js": "/g-dunlop-portfolio-website/static/js/main.06db1723.js",
+    "main.css": "/g-dunlop-portfolio-website/static/css/main.7a74928c.css",
+    "main.js": "/g-dunlop-portfolio-website/static/js/main.2f8b0898.js",
     "static/js/787.7e3e4712.chunk.js": "/g-dunlop-portfolio-website/static/js/787.7e3e4712.chunk.js",
     "static/media/MemoryGameVid.mov": "/g-dunlop-portfolio-website/static/media/MemoryGameVid.6562233de9b5a2830c19.mov",
+    "static/media/StockTracker2Vid.mov": "/g-dunlop-portfolio-website/static/media/StockTracker2Vid.f819bd591f095bb0f959.mov",
     "static/media/vmaVid.mov": "/g-dunlop-portfolio-website/static/media/vmaVid.d39922a60bb373c78fe3.mov",
-    "static/media/stockTrackerVid.mov": "/g-dunlop-portfolio-website/static/media/stockTrackerVid.d618bd50c3c43115c1ef.mov",
     "static/media/home.jpg": "/g-dunlop-portfolio-website/static/media/home.eeb316f92067af20d24c.jpg",
     "static/media/tree_pic.jpg": "/g-dunlop-portfolio-website/static/media/tree_pic.f48999aa57719023f4da.jpg",
     "static/media/MemoryGame_2.png": "/g-dunlop-portfolio-website/static/media/MemoryGame_2.ad0b29c7915dd4e9d9be.png",
@@ -24,12 +24,12 @@
     "static/media/js.svg": "/g-dunlop-portfolio-website/static/media/js.849ab271da269656ee7d884b34d5ebce.svg",
     "static/media/css3.svg": "/g-dunlop-portfolio-website/static/media/css3.48fde97df5ef68b54506ffb154905c4f.svg",
     "static/media/html5.svg": "/g-dunlop-portfolio-website/static/media/html5.280fcec471ee0f3842bcb8ff7c9bbf23.svg",
-    "main.3f9b3f0e.css.map": "/g-dunlop-portfolio-website/static/css/main.3f9b3f0e.css.map",
-    "main.06db1723.js.map": "/g-dunlop-portfolio-website/static/js/main.06db1723.js.map",
+    "main.7a74928c.css.map": "/g-dunlop-portfolio-website/static/css/main.7a74928c.css.map",
+    "main.2f8b0898.js.map": "/g-dunlop-portfolio-website/static/js/main.2f8b0898.js.map",
     "787.7e3e4712.chunk.js.map": "/g-dunlop-portfolio-website/static/js/787.7e3e4712.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f9b3f0e.css",
-    "static/js/main.06db1723.js"
+    "static/css/main.7a74928c.css",
+    "static/js/main.2f8b0898.js"
   ]
 }
