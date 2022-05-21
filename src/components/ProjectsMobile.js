@@ -6,7 +6,7 @@ import StockTracker_1 from "../static/stockTracker/StockTracker_1.png";
 import gHub from "../static/icons/ghub.png";
 import MemoryGameVid from "../static/memory/MemoryGameVid.mov";
 import vmaVid from "../static/vma/vmaVid.mov";
-import stockTrackerVid from "../static/stockTracker/stockTrackerVid.mov";
+import stockTrackerVid from "../static/stockTracker/StockTracker2Vid.mov";
 
 
 
@@ -83,9 +83,9 @@ const ProjectsMobile = () => {
                 <Div className="description">
                     <ProjectHeader>Stock Tracker</ProjectHeader>
 
-                    <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was a group project that took 6 days.</Paragraph>
+                    <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 10 of the CodeClan course.  This was a group project that took 6 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span>  Built with React, Node js, Express, MongoDB, APIs, Git.</Paragraph>
-                    <a className="project-icon" href="https://github.com/xboyjx/w10_stocks_project" target="_blank"><img className="project-icon" src={gHub}/></a>
+                    <a className="project-icon" href="https://github.com/g-dunlop/stock_tracker_app_v2" target="_blank"><img className="project-icon" src={gHub}/></a>
                    
                 </Div>
                 <video width="350" height="270" autoPlay muted controls loop>

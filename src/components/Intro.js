@@ -96,7 +96,7 @@ const Intro = () => {
                      {/* <div><i className="fa fa-spinner fa-spin">no spinner but why</i></div>; */}
                         <Item>Full-Stack Software Developer</Item>
                         <Item>CodeClan Graduate</Item>
-                        <Item>15 years in Education</Item>
+                        <Item>15 years in Language Education</Item>
                         <Item>Extensive Management and Training Experience</Item>
                         <Item>Lifelong Learner</Item>
                     </List>
