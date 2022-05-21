@@ -36,9 +36,11 @@
   flex-direction: column;
   justify-content:space-evenly;
   width:75%;
+  padding:1rem;
 }
 .about-paragraph{
   text-align:justify;
+  line-height:1.5;
 }
 
 .headshot{
