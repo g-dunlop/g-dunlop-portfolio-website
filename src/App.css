@@ -146,3 +146,9 @@ hr{
   color:white;
   font-size:0.6rem;
 }
+
+@media Screen and (max-width:900px){
+  .project video:first-child {
+    order:1;
+  }
+}

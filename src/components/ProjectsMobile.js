@@ -62,7 +62,7 @@ const ProjectsMobile = () => {
     const Div = styled.div`
         width:75%;
         text-align:center;
-       
+        
 
     `
     const Row = styled.hr`
