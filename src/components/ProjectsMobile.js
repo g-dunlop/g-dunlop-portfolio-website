@@ -1,12 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import home from "../static/vma/home.jpg";
-import memorygame from "../static/memory/MemoryGame_2.png";
-import StockTracker_1 from "../static/stockTracker/StockTracker_1.png";
+
 import gHub from "../static/icons/ghub.png";
-import MemoryGameVid from "../static/memory/MemoryGameVid.mov";
-import vmaVid from "../static/vma/vmaVid.mov";
-import stockTrackerVid from "../static/stockTracker/StockTracker2Vid.mov";
+import MemoryGameVid from "../static/memory/MemoryGameVid.mp4";
+import vmaVid from "../static/vma/vmaVid.mp4";
+import stockTrackerVid from "../static/stockTracker/StockTracker2Vid.mp4";
 
 
 

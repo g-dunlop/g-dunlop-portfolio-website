@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import TreePic from "../static/tree_pic.jpg";
-import MountainRange from "../static/mountain_range.jpg";
-import Banner from "../static/coding-banner.jpg";
+
+import Banner from "../static/coding-banner.png";
 import logo from "../static/icons/Logo2.png"
 
 
