@@ -84,7 +84,18 @@ const Projects = () => {
         color:white;
         padding:0.05rem;
     `
-    
+    const Git = styled.img`
+        height:25px;
+        width:25px;
+        margin-left:1rem;
+        background-color:white;
+        border-radius:5px;
+        padding:0.1rem;
+        `
+    const GitDiv = styled.div`
+        display:flex;
+        align-items:center;
+    `
 
     return (
         <div id="projects">
@@ -99,7 +110,7 @@ const Projects = () => {
                     <ProjectHeader>Stock Tracker</ProjectHeader>
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 10 of the CodeClan course.  This was a group project that took 6 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span> Built with React, Node js, Express, MongoDB, APIs, Git.</Paragraph>
-                    <a className="project-icon" href="https://github.com/g-dunlop/stock_tracker_app_v2" target="_blank"><img className="project-icon" src={gHub}/></a>
+                    <Paragraph><GitDiv><span className="bolding">ReadMe: </span><a className="project-icon" href="https://github.com/g-dunlop/stock_tracker_app_v2" target="_blank"><Git className="project-icon" src={gHub}/></a></GitDiv></Paragraph>
                     
                 </Div>
                 
@@ -110,7 +121,7 @@ const Projects = () => {
                     <ProjectHeader>Memory Game</ProjectHeader>
                     <Paragraph><span className="bolding">About: </span>Full-stack app built on week 8 of the CodeClan course.  This was an individual project that took 3 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span>Built with React, Node js, Express, MongoDB.</Paragraph>
-                    <a className="project-icon" href="https://github.com/g-dunlop/memory-game" target="_blank"><img className="project-icon" src={gHub}/></a>
+                    <Paragraph><GitDiv><span className="bolding">ReadMe: </span><a className="project-icon" href="https://github.com/g-dunlop/memory-game" target="_blank"><Git className="project-icon" src={gHub}/></a></GitDiv></Paragraph>
                     
                 </Div>
                 {/* <a href=""><Pic src={memorygame}></Pic></a> */}
@@ -128,7 +139,7 @@ const Projects = () => {
                     <ProjectHeader>Vet Management App</ProjectHeader>
                     <Paragraph><span className="bolding">About: </span>Full-Stack app built on week 5 of the CodeClan course.  This was an individual project that took 6 days.</Paragraph>
                     <Paragraph><span className="bolding">Tools: </span>Built with Python, Flask, Jinja, PostgreSQL.</Paragraph>
-                    <a className="project-icon" href="https://github.com/g-dunlop/Project-1-Vet-Management-App" target="_blank"><img className="project-icon" src={gHub}/></a>
+                    <Paragraph><GitDiv><span className="bolding">ReadMe: </span><a className="project-icon" href="https://github.com/g-dunlop/Project-1-Vet-Management-App" target="_blank"><Git className="project-icon" src={gHub}/></a></GitDiv></Paragraph>
                     
                 </Div>
             </ProjectSection>
