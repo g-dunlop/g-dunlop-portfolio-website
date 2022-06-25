@@ -92,7 +92,7 @@ const Projects = () => {
             <Row />
             <ProjectSection className="project" id="st">
                 {/* <a href=""><Pic src={StockTracker_1}></Pic></a> */}
-                <video width="400" height="300" autoPlay muted controls loop>
+                <video className="project-vid" width="400" height="300" autoPlay muted controls loop>
                     <source src={stockTrackerVid} type="video/mp4"></source>
                 </video>
                 <Div className="description">
@@ -114,14 +114,14 @@ const Projects = () => {
                     
                 </Div>
                 {/* <a href=""><Pic src={memorygame}></Pic></a> */}
-                <video width="400" height="300" autoPlay muted controls loop>
+                <video className="project-vid" width="400" height="300" autoPlay muted controls loop>
                     <source src={MemoryGameVid} type="video/mp4"></source>
                 </video>
             </ProjectSection>
             <Row />
             <ProjectSection className="project" id="vma">
                 {/* <a href=""><Pic src={home}></Pic></a> */}
-                <video width="400" height="300" autoPlay muted controls loop>
+                <video className="project-vid" width="400" height="300" autoPlay muted controls loop>
                     <source src={vmaVid} type="video/mp4"></source>
                 </video>
                 <Div className="description">
