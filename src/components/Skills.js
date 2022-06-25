@@ -45,6 +45,14 @@ const Skills = () => {
         display:flex;
         justify-content:space-between;
         width:80%;
+        @media (max-width:900px){
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            justify-content:space-between;
+            width:100%;
+            margin-bottom:1rem;
+        }
     `
 
     const PicBox = styled.section`
@@ -53,18 +61,28 @@ const Skills = () => {
         display:flex;
         align-items:center;
         justify-content:center;
+        @media(max-width:900px){
+            width:100%;
+            height:60px;
+        }
     `
 
     const Pic = styled.img`
     width:50%;
     height:100px;
+    @media(max-width:900px){
+        width:50%;
+        height:50px;
+    }
     `
 
     const GridContainer = styled.section`
         display:flex;
         justify-content:center;
-        // background-color:#EEEEEE;
-        // background-color: #A6E3E9;
+        @media (max-width:900px){
+            align-items:center;
+            width:100%;
+        }
     `
 
     const Title = styled.h3`
@@ -76,13 +94,15 @@ const Skills = () => {
         font-size:2rem;
         color:#222831;
         margin:0;
-        // background-color:#EEEEEE;
-        // background-color: #A6E3E9;
+    
     `
 
     const SkillsComponent = styled.section`
-    height:45vh;
+    height:50vh;
     margin:bottom:1rem;
+    @media (max-width:900px){
+        height:auto;
+    }
     `
     // const GridItem = 
 
@@ -91,6 +111,9 @@ const Skills = () => {
         justify-content:center;
         align-items:center;
         margin:0;
+        @media (max-width:900px){
+            margin-bottom:1rem;
+        }
     `
     
 

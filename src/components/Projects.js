@@ -1,16 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-import home from "../static/vma/home.jpg";
-import memorygame from "../static/memory/MemoryGame_2.png";
-import StockTracker_1 from "../static/stockTracker/StockTracker_1.png";
+
 import gHub from "../static/icons/ghub.png";
-import MemoryGameVid from "../static/memory/MemoryGameVid.mov";
-import vmaVid from "../static/vma/vmaVid.mov";
-import stockTrackerVid from "../static/stockTracker/StockTracker2Vid.mov";
+import MemoryGameVid from "../static/memory/MemoryGameVid.mp4";
+import vmaVid from "../static/vma/vmaVid.mp4";
+import stockTrackerVid from "../static/stockTracker/StockTracker2Vid.mp4";
 
 
 
-const Projects = () => {
+const Projects = () => { 
 
     const Title = styled.h3`
         font-family:Montserrat, sans-serif;
@@ -38,8 +36,15 @@ const Projects = () => {
         justify-content:space-evenly;
         padding:2rem 0 2rem 0;
         width:100%;
+        @media (max-width:900px){
+            flex-direction:column;
+            padding:1rem 0 1rem 0;
+            flex-wrap:wrap;
+            align-items:center;
+        }
     `
 
+    
     const ProjectHeader = styled.h4`
         color:white;
         font-size:1.5rem;
@@ -47,6 +52,11 @@ const Projects = () => {
         margin-top:3rem;
         margin-bottom:0.5rem;
         letter-spacing:1px;
+        @media (max-width:900px){
+            margin-top:1rem;
+            margin-bottom:1.5rem;
+            text-align:center;
+        }
     `
 
     const Paragraph = styled.p`
@@ -54,11 +64,20 @@ const Projects = () => {
         text-align:left;
         font-size:0.8rem;
         line-height:1.5;
+        @media (max-width:900px){
+            text-align:justify;
+            padding:0 0rem 0 0rem;
+        }
     `
 
     const Div = styled.div`
         width:400px;
         text-align:left;
+        @media (max-width:900px){
+            width:75%;
+            text-align:center;
+        
+        }
     `
     const Row = styled.hr`
         margin:0;

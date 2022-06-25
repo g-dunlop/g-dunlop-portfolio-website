@@ -1,22 +1,18 @@
 import React from "react";
 import styled from "styled-components";
-import TreePic from "../static/tree_pic.jpg";
-import MountainRange from "../static/mountain_range.jpg";
-import Banner from "../static/coding-banner.jpg";
+
+import Banner from "../static/coding-banner.png";
 import logo2 from "../static/icons/Logo2.png"
 
 
 
 
-const Intro = () => {
+const Intro = () => { 
 
     const Container = styled.section`
         display:flex;
-        flex-direction:column;
         flex-wrap:wrap;
         width:100%;
-        justify-content:space-evenly;
-        align-items:center;
         height:auto;
         font-family:Esteban, serif;
         color:#393E46;
@@ -24,26 +20,22 @@ const Intro = () => {
         background-size:cover;
         background-position:center;
         z-index:-1;
-        // background-repeat:no-repeat;
     `
-
-    const Title = styled.h3`
-        font-family:Montserrat, sans-serif;
-        text-align:center;
-        padding:2rem;
-        padding-top:2rem;
-        // padding-top:4.5rem;
-        font-size:2rem;
-        color:white;
-        margin:0;
-    `
+    const Div = styled.div`
+        background-color:#292732;
+        opacity:0.9;
+        height:auto;
+        width:100%;
+        `
 
     const List = styled.ul`
         list-style:none;
         text-align:center;
         margin:0;
         padding:1.5rem 1.5rem 1.5rem 1.5rem;
-        // padding-left:4rem;
+        @media (max-width:900px){
+            padding:0rem 1rem 1rem 1rem;
+        }
     `
         const Item = styled.li`
         padding:0.8rem 0rem 1rem 0rem;
@@ -60,13 +52,7 @@ const Intro = () => {
         width:400px
         `
 
-        const Div = styled.div`
-        // background-color: hsla(275,20%,15%, 0.8);
-        background-color:#292732;
-        opacity:0.9;
-        height:auto;
-        width:100%;
-        `
+        
 
         const Row = styled.hr`
         margin:0;
@@ -79,15 +65,18 @@ const Intro = () => {
         margin:0;
         position:absolute;
         left:1.5rem;
-     
+        @media (max-width:900px){
+            position:relative;
+            left:0;
+        }
         `
        
 
     return (
         
         <>
-           
-            <Container className="intro-container">
+            <Container className="intro-container" >
+            
                 <Div className="intro-left">
                     {/* <Title>Hello. I'm Graeme.</Title> */}
                     <Logo src={logo2} />
@@ -101,9 +90,6 @@ const Intro = () => {
                         <Item>Lifelong Learner</Item>
                     </List>
                 </Div>
-                <div className="intro-right">
-                    
-                </div>
 
             </Container> 
         </>
