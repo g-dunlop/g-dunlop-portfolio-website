@@ -1,6 +1,6 @@
 import React, { useEffect} from "react";
 import styled from "styled-components";
-
+ 
 import Sidebar from './Sidebar';
 import { useState } from "react";
 
@@ -16,6 +16,10 @@ const Header = () => {
 
     const Logo = styled.h3`
         padding-left:2em;
+        @media (max-width: 900px){
+            padding-top:0.5rem;
+            padding-left:0.5rem;
+        }
         
     `
     const List = styled.ul`
