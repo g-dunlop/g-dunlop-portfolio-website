@@ -6,13 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat&display=swap');
 
-/* .project-icon{
-  height:50px;
-  width:50px;
-  background-color:white;
-  border-radius:2px;
-} */
-
 video.projectvid {
   position: fixed; right: 0; bottom: 0;
   min-width: 100%; min-height: 100%;
@@ -141,6 +134,14 @@ hr{
     width:140px;
     margin:1rem 1rem 1rem 1rem;
   }
+  .project video:first-child {
+    order:1;
+  }
+  
+  .project-vid{
+    width:300px;
+    height:250px;
+  }
 }
 
 .footer{
@@ -154,8 +155,5 @@ hr{
   font-size:0.6rem;
 }
 
-@media Screen and (max-width:900px){
-  .project video:first-child {
-    order:1;
-  }
-}
+
+ 

@@ -24,12 +24,6 @@ const Projects = () => {
         letter-spacing:5px;
     `
 
-    const Pic = styled.img`
-        height:250px;
-        width:400px;
-      
-    `
-
     const ProjectSection = styled.section`
         background-color: #292732; 
         display:flex;
@@ -140,14 +134,14 @@ const Projects = () => {
                     <Paragraph><GitDiv><span className="bolding">ReadMe: </span><a className="project-icon" href="https://github.com/g-dunlop/memory-game" target="_blank"><Git className="project-icon" src={gHub}/></a></GitDiv></Paragraph>
                     
                 </Div>
-                {/* <a href=""><Pic src={memorygame}></Pic></a> */}
+               
                 <video className="project-vid" width="400" height="300" autoPlay muted controls loop>
                     <source src={MemoryGameVid} type="video/mp4"></source>
                 </video>
             </ProjectSection>
             <Row />
             <ProjectSection className="project" id="vma">
-                {/* <a href=""><Pic src={home}></Pic></a> */}
+              
                 <video className="project-vid" width="400" height="300" autoPlay muted controls loop>
                     <source src={vmaVid} type="video/mp4"></source>
                 </video>

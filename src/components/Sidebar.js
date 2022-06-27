@@ -22,7 +22,8 @@ export default props => {
         right
         isOpen={isOpen}
         onOpen={handleIsOpen}
-        onClose={handleIsOpen}  >
+        onClose={handleIsOpen}
+       >
        
         <a  className="menu-item" onClick={closeSideBar} href="/g-dunlop-portfolio-website/">
           Home
